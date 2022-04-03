@@ -2,10 +2,7 @@ let b_button = false;
 let w_button = false;
 
 //black button onclick
-
-
 document.getElementById('id_black').onclick = () => {
- 
   if(!b_button){
     b_button=true;
     w_button=false;
@@ -17,10 +14,9 @@ document.getElementById('id_black').onclick = () => {
     });
     console.log("if of black");
   }else{
-    alert('background already black!')
+    alert('background is already black!')
     console.log("else of black");
     w_button=false;
-    
   }
 }
 
@@ -37,7 +33,7 @@ document.getElementById('id_white').onclick = () => {
     });
     console.log("if of white");
   }else{
-    alert('bachground already white!')
+    alert('bachground is already white!')
     console.log("else of white");
     b_button=false;
   }

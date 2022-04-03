@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <body >
-        <h1>Change color</h1>
+  <body >
+      <div class="heading">
+        <h2>Change white background to black</h2></div>
     <div class="popup">
         <input type="button" id="id_black" value="Black">
         <br><br>
@@ -10,12 +11,25 @@
     
     <style>
         body{
-            background-color: rgb(255, 255, 255);
+            background-color:#648196;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h2{
+            margin-top: 2rem;
+            /* margin-left: 3rem; */
+            margin-bottom: 0;
+            color: white;
         }
 
+        .heading{
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        
         .popup{
-            min-width:150px;
-            min-height: 150px;
+            min-width:180px;
+            min-height: 180px;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -23,11 +37,12 @@
         }
 
         input{
+            height: 3rem;
+            width: 5rem;
             margin: 1rem;
-            border-radius: 2rem;
-            background-color: rgb(164, 173, 173);
-            border-radius: 1px solid black;
-            color: white;
+            border-radius: 1rem;
+            background-color: #336B87;
+            color: rgb(255, 255, 255);
         }
 
     </style>
