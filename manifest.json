@@ -1,0 +1,15 @@
+{
+    "name": "Dark Mode",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "This is Dark mode extension",
+    "permissions": ["scripting"],
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+    ],
+    "action": {
+      "default_title": "I am an extesnion",
+      "default_popup": "popup.html"
+    }
+  }
